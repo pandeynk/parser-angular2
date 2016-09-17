@@ -1,5 +1,7 @@
 # Angular2 Parser
 
+![Alt text](http://content.screencast.com/users/nandan.pandey/folders/Jing/media/aef6d332-b11f-4f41-87d4-9272c7e93a92/angular2-parser.png "Optional title")
+
 Open app/card.service.js file
 find
     
