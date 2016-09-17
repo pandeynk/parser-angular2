@@ -2,8 +2,10 @@
 
 Open app/card.service.js file
 find
-    headers.append('X-Parse-Application-Id', 'your app id');
-    headers.append('X-Parse-REST-API-Key', 'your rest api key');
+    
+headers.append('X-Parse-Application-Id', 'your app id');
+
+headers.append('X-Parse-REST-API-Key', 'your rest api key');
     
 Replace with your parser AppId and REST API key
 
@@ -24,7 +26,7 @@ We recommend [nvm](https://github.com/creationix/nvm) for managing multiple vers
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
+git clone  https://github.com/noddypandey/parser-angular2  my-proj
 cd my-proj
 ```
 
