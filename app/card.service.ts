@@ -13,8 +13,8 @@ export class CardService {
   getCards (): Observable<Card[]> {
 
     let headers=new Headers();
-    headers.append('X-Parse-Application-Id', '5SME4uRWT5b6yse6V6XLPllOH5CYP8W6ya0JCFTu');
-    headers.append('X-Parse-REST-API-Key', 'b2BUDOUbO145QSvxAiCykIltv1m8M3UyPwfkKz6X');
+    headers.append('X-Parse-Application-Id', 'YOUR-APP-ID');
+    headers.append('X-Parse-REST-API-Key', 'YOUR-REST-API-KEY');
     headers.append('Content-Type', 'application/json');
 
     return this.http.get(this.cardsUrl, {headers:headers})
